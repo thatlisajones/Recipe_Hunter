@@ -43,7 +43,7 @@ $("#userInput").on("submit", function(e) {
   recipesDiv.append(socialRankDisp);
 
   var sourceurl= resultObj.recipes[i].source_url;
-  var sourceurlDisp= $("<p>").text("Source URL: " + sourceurl);
+  var sourceurlDisp= $("<a href =>").text("Source URL: " + sourceurl);
   recipesDiv.append(sourceurlDisp);
   $("#recipesHolder").prepend(recipesDiv);
 }
