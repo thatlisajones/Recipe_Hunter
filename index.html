@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
-    <title>Meal and a Movie</title>
-    
+    <title>Recipe Hunter</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/basic.css">
+
 </head>
+
 <body>
 
-    <h1>Meal & Movie</h1>
-    <h3>Easy-click suggestions for at-home entertainment.</h3>
+        <div class="container">
+               
+              
 
-    <h2>Meal?</h2>
-    <p>Beef? Fish? Vegetarian? Type a keyword and click for three recipe ideas.</p>
-    <form id="userInput"> 
-            <input type="text" class="form-control form-field" id="ingredient"> 
-            <button type= "submit"> search </button> 
+    <h1>Recipe Hunter</h1>
+    <h3>What can you make with what's in the fridge?</h3>
+    <br>
+    <h2>Search by ingredient:</h2>
+
+    <form id="userInput">
+        <input type="text" class="form-control-lg" id="ingredient">
+        <button type="submit" class="btn btn-warning btn-lg"> search </button>
     </form>
-    
+
+</div>
 
     <div id="recipesHolder"></div>
 
-    <h2>Movie?</h2>
-    <p>Click for a movie to stream that's appropriate for all ages.</p>
-    <button id="netflix-submit"> Get something on Netflix </button>
-    <button id="amazon-submit"> Get something on Amazon Prime </button>
-
-    <div id="movieHolder"></div>
-
-       
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="food2fork.js"></script>
-    <script src="movie.js"></script>
-    <link rel="stylesheet" type="text/css" href="basic.css"/>
+    <script src="assets/food2fork.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/basic.css" />
 </body>
+
 </html>
