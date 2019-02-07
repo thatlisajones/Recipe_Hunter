@@ -3,10 +3,6 @@ body {
     
 }
 
-h1 {
- 
-}
-
 .header {
     text-align: center;
     font-family: 'Lobster', 'Trebuchet MS', sans-serif;
@@ -16,6 +12,12 @@ h1 {
     height: 50%;
   width: 80%;
   opacity: 0.9;
+  }
+
+  .recipes {
+    background-color: coral;
+    height: 90%;
+  width: 80%;
   }
 
 

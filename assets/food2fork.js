@@ -25,7 +25,7 @@ $("#userInput").on("submit", function (e) {
       // console.log(title);
 
       //Creating an element to have title displayed
-      var titleDisp = $("<p>").text("Title: " + title);
+      var titleDisp = $("<h2>").text(title);
       //displaying the data
       recipesDiv.append(titleDisp);
 
@@ -43,7 +43,7 @@ $("#userInput").on("submit", function (e) {
       // recipesDiv.append(socialRankDisp);
 
       var sourceurl = resultObj.recipes[i].source_url;
-      var sourceurlDisp = $("<a href= >").text("Source URL: " + sourceurl);
+      var sourceurlDisp = $("<a href= >").text(sourceurl);
       recipesDiv.append(sourceurlDisp);
       $("#recipesHolder").prepend(recipesDiv);
     }
