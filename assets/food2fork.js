@@ -38,16 +38,19 @@ $("#userInput").on("submit", function (e) {
       // var ingredientDisp = $("<p>").text("Ingredients: " + ingredients);
       // recipesDiv.append(ingredientDisp);
 
-      var ranking = resultObj.recipes[i].social_rank;
-      var socialRankDisp = $("<p>").text("Social Rank: " + ranking);
-      recipesDiv.append(socialRankDisp);
+      // var ranking = resultObj.recipes[i].social_rank;
+      // var socialRankDisp = $("<p>").text("Social Rank: " + ranking);
+      // recipesDiv.append(socialRankDisp);
 
       var sourceurl = resultObj.recipes[i].source_url;
-      var sourceurlDisp = $("<a href =>").text("Source URL: " + sourceurl);
+      var sourceurlDisp = $("<a href= >").text("Source URL: " + sourceurl);
       recipesDiv.append(sourceurlDisp);
       $("#recipesHolder").prepend(recipesDiv);
     }
 
   });
+
+
+  
 });
 

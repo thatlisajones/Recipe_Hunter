@@ -11,7 +11,9 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lobster">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/basic.css">
 
@@ -19,11 +21,53 @@
 
 <body>
 
-        <div class="container">
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="header">
+              
+                    <h1 class="display-4">Recipe Hunter</h1>
+                    <p class="lead">What can you make with what's in the fridge?</p>
+                    <h2>Search by ingredient:</h2>
+  
+                    <form id="userInput">
+                        <input type="text" class="form-control-lg" id="ingredient">
+                        <button type="submit" class="btn btn-warning btn-lg"> search </button>
+                    </form>
+                  </div>
+          </div>
+          <div class="col">
+              <div id="recipesHolder"></div>
+          </div>
+        </div>
+
+        <!-- <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Recipe Hunter</h1>
+                  <p class="lead">What can you make with what's in the fridge?</p>
+                  <h2>Search by ingredient:</h2>
+
+                  <form id="userInput">
+                      <input type="text" class="form-control-lg" id="ingredient">
+                      <button type="submit" class="btn btn-warning btn-lg"> search </button>
+                  </form>
+                  <div id="recipesHolder"></div>
+                </div>
+              </div> -->
+
+
+    
+        <!-- <div class="container">
                
               
 
-    <h1>Recipe Hunter</h1>
+    <h1>Recipe Search</h1>
+    <br>
     <h3>What can you make with what's in the fridge?</h3>
     <br>
     <h2>Search by ingredient:</h2>
@@ -35,7 +79,12 @@
 
 </div>
 
-    <div id="recipesHolder"></div>
+<div id="recipesHolder"class="card">
+    <div class="card-body">
+      
+    </div>
+  </div>
+    <div id="recipesHolder"></div> -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
