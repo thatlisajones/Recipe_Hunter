@@ -2,7 +2,7 @@
 
 This app uses AJAX to call the Food2Fork recipe API. Users input a main ingredient. The app returns three recipes featuring the ingredient.
 
-Try it: https://thatlisajones.github.io/Recipe_Hunter/
+## Try it: https://thatlisajones.github.io/Recipe_Hunter/
 
 GitHub repo: https://github.com/thatlisajones/Recipe_Hunter
 
