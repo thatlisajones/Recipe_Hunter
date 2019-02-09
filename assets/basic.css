@@ -10,15 +10,32 @@ body {
     color: darkblue;
     background-color: lightyellow;
     height: 50%;
-  width: 80%;
-  opacity: 0.9;
+    width: 80%;
+    opacity: 0.9;
   }
 
   .recipes {
-    background-color: coral;
+    text-align: center;
+    font-family: 'Lobster', 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    background-color: lightyellow;
     height: 90%;
-  width: 80%;
+    width: 70%;
+    
   }
+
+  .recipes img {
+    align-content: center;
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .recipes link {
+    
+    color: darkblue;
+
+  }
+
 
 
 

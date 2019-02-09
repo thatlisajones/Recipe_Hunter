@@ -6,10 +6,10 @@ $("#userInput").on("submit", function (e) {
     method: "GET"
   }).then(function (result) {
     var resultObj = jQuery.parseJSON(result);
-    console.log(resultObj);
-    console.log(resultObj.recipes);
-    console.log(resultObj.recipes[0])
-    console.log(resultObj.recipes[0].title);
+    // console.log(resultObj);
+    // console.log(resultObj.recipes);
+    // console.log(resultObj.recipes[0])
+    // console.log(resultObj.recipes[0].title);
 
     $("#recipesHolder").empty();
 
@@ -25,12 +25,12 @@ $("#userInput").on("submit", function (e) {
       // console.log(title);
 
       //Creating an element to have title displayed
-      var titleDisp = $("<h2>").text(title);
+      // var titleDisp = $("<h2>").text(title);
       //displaying the data
-      recipesDiv.append(titleDisp);
+      // recipesDiv.append(titleDisp);
 
       var imgUrl = resultObj.recipes[i].image_url;
-      console.log(imgUrl);
+      // console.log(imgUrl);
       var imgDisp = $("<img>").attr("src", imgUrl);
       recipesDiv.append(imgDisp);
 
@@ -43,7 +43,8 @@ $("#userInput").on("submit", function (e) {
       // recipesDiv.append(socialRankDisp);
 
       var sourceurl = resultObj.recipes[i].source_url;
-      var sourceurlDisp = $("<a href= >").text(sourceurl);
+      var sourceurlDisp = $("<a target='_blank'>").attr("href", sourceurl);
+      sourceurlDisp.text(resultObj.recipes[i].title);
       recipesDiv.append(sourceurlDisp);
       $("#recipesHolder").prepend(recipesDiv);
     }
