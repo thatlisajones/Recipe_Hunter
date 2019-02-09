@@ -1,7 +1,8 @@
 body {
   background: url("fridge.jpg") no-repeat fixed left;
-    
+      
 }
+
 
 .header {
     text-align: center;
@@ -10,7 +11,7 @@ body {
     color: darkblue;
     background-color: lightyellow;
     height: 50%;
-    width: 80%;
+    width: 90%;
     opacity: 0.9;
   }
 
@@ -21,6 +22,7 @@ body {
     background-color: lightyellow;
     height: 90%;
     width: 70%;
+    opacity: 0.9;
     
   }
 
